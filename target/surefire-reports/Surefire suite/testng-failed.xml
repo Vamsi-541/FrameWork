@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Accolite.tests.SubmitOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="OrderHistoryTest"/>
+          <include name="submitOrder"/>
+        </methods>
+      </class> <!-- Accolite.tests.SubmitOrderTest -->
+      <class name="Accolite.tests.ErrorValidationsTest">
+        <methods>
+          <include name="LoginErrorValidation"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="ProductErrorValidation"/>
+        </methods>
+      </class> <!-- Accolite.tests.ErrorValidationsTest -->
+      <class name="cucumber.TestNGTestRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- cucumber.TestNGTestRunner -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

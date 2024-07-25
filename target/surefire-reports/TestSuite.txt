@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 5, Errors: 0, Skipped: 4, Time elapsed: 1.531 s <<< FAILURE! - in TestSuite
+launchApplication(Accolite.tests.ErrorValidationsTest)  Time elapsed: 0.418 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\vamsi.krishna\eclipse-workspace\SeleniumFramWorkDesign-maven\src\main\java\rahulshettyacademy\resources\GlobalData.properties (The system cannot find the path specified)
+
+tearDown(Accolite.tests.ErrorValidationsTest)  Time elapsed: 0.419 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+launchApplication(Accolite.tests.ErrorValidationsTest)  Time elapsed: 0.42 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\vamsi.krishna\eclipse-workspace\SeleniumFramWorkDesign-maven\src\main\java\rahulshettyacademy\resources\GlobalData.properties (The system cannot find the path specified)
+
+tearDown(Accolite.tests.ErrorValidationsTest)  Time elapsed: 0.42 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+runScenario(cucumber.TestNGTestRunner)  Time elapsed: 0.125 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I landed on Ecommerce Page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I landed on Ecommerce Page")
+public void i_landed_on_ecommerce_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("Logged in with username rahulshetty@gmail.com and password Iamking@{int}")
+public void logged_in_with_username_rahulshetty_gmail_com_and_password_iamking(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add product ZARA COAT {int} to Cart")
+public void i_add_product_zara_coat_to_cart(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Checkout ZARA COAT {int} and submit the order")
+public void checkout_zara_coat_and_submit_the_order(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} message is displayed on ConfirmationPage")
+public void message_is_displayed_on_confirmation_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
